@@ -12,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "peers": "bitpeers --filepath ./peers.dat --format text --addressonly > addresses.txt"
   },
   "eslintConfig": {
     "extends": "react-app"
